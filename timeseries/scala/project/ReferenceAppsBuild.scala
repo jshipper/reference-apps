@@ -39,19 +39,18 @@ object ReferenceAppsBuild extends Build {
 
 object Versions {
 
-  val Akka           = "2.2.3" // can not use akka latest
+  val Akka           = "2.3.9"
   val Bijection      = "0.7.0"
-  val CassandraDriver = "2.1.2"
-  val Chill          = "1.1"
+  val CassandraDriver = "2.1.5"
   val JDK            = "1.7"
   val JodaConvert    = "1.7"
   val JodaTime       = "2.4"
-  val Kafka          = "0.8.0"//0.8.2 when out of beta
+  val Kafka          = "0.8.2.1"
   val Kryo           = "3.0.0"
-  val Scala          = "2.10.4"
+  val Scala          = "2.10.5"
   val Slf4j          = "1.7.7"
-  val Spark          = "1.1.1"// support for 1.2.0/1.2.2 in the connector very soon
-  val SparkCassandra = "1.1.0"// upgrade for 1.2.0 release very soon
+  val Spark          = "1.4.0"
+  val SparkCassandra = "1.4.0-M1"
 }
 
 object Dependencies {
